@@ -192,11 +192,11 @@ addHook("PlayerThink", function(player)
 	if player.mo.skin != "knuckles"
 		return
 	end
-	local actionspd = (player.mo.truespeed + FU/2)
+	local actionspd = (player.mo.truespeed + FU/10)
 	if player.mo.eflags & MFE_UNDERWATER
 		actionspd = $/2
 	end
 	if player.pflags&PF_GLIDING then
-		P_InstaThrust(player.mo, player.drawangle, actionspd)
+		P_InstaThrust(player.mo, player.mo.angle, actionspd)
 	end
 end)
