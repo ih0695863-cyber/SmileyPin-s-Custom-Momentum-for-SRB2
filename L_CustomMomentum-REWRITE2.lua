@@ -12,9 +12,9 @@ states[S_PLAY_ALTFALL] = {
 }
 
 -- @1 PRINT TEXT UPON LOADING --
-print("\x83" + "[CONFIRM]:" + "\x80" + "CustomMomentum-REWRITE2 for 2.2.X by LowPolyDX!")
-print("\x82" + "[NOTICE]:" + "\x80" + "Please enjoy and report issues to the relevant MB Discussion thread.")
-print("\x82" + "[NOTICE]:" + "\x80" + "Feel free to also leave a review for the addon on the MB.")
+print("\x83" + "[CONFIRM]:" + "\x80" + "CustomMomentum-REWRITE2 for 2.2.X by SmileyPin!")
+print("\x82" + "[NOTICE]:" + "\x80" + "Please enjoy and report issues to the relevant GitHub repo.")
+print("\x82" + "[NOTICE]:" + "\x80" + "Feel free to also leave a review for the addon.")
 
 local debug = true
 
